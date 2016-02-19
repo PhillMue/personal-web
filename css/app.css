@@ -267,8 +267,12 @@ div.aligncenter {
     /*background-position: 0px -54px;*/
 }
 
-#what-i-do{
-    padding: 100px;
+
+
+
+
+#what i do {
+     padding: 100px;
     position: relative;
     display: inline-block;
     width: 100%;
@@ -276,4 +280,6 @@ div.aligncenter {
     z-index: 5;
 }
 
-
+.grid-12 {
+    text-align: center;
+}
