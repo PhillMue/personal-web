@@ -10,11 +10,12 @@
 
 body {
     background-color: #ffffff;
+    height: 100%;
 }
 
 .aligncenter,
 div.aligncenter {
-    display:block !important;
+    display:in-block !important;
     margin-left:auto;
     margin-right:auto;
 }
@@ -66,25 +67,7 @@ div.aligncenter {
 
 }
 
-#homepage-logo {
-    float: left;
-    position: absolute;
-    width: 100%;
-    height: 75px;
-    display: inline-block;
-    text-align: center;
-    top: 80px;
-/*    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -o-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);*/
 
-    -webkit-transform:translateZ(0px);
-    -moz-transform:translateZ(0px);
-    -o-transform:translateZ(0px);
-    transform:translateZ(0px);
-
-}
 
 .homepage-header {
     position: relative;
@@ -267,11 +250,7 @@ div.aligncenter {
     /*background-position: 0px -54px;*/
 }
 
-
-
-
-
-#what i do {
+#what_i_do {
      padding: 100px;
     position: relative;
     display: inline-block;
@@ -282,4 +261,32 @@ div.aligncenter {
 
 .grid-12 {
     text-align: center;
+}
+
+.service {
+    margin-top: 40px;
+}
+
+#Website {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background-color:aliceblue;
+    background-image: url("../images/icon_services_sprit.png")
+}
+
+#Identity {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background-color: aliceblue;
+    background-image: url("../images/icon_services_sprit.png")
+}
+
+#print {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background-color: aliceblue;
+    background-image: url(../images/icon_services_sprit.png)
 }
