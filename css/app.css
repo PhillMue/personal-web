@@ -61,6 +61,8 @@ div.aligncenter {
     background: url('../css/cool.jpg') no-repeat top center;
 	background-size:cover;
     position: fixed;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 
 }
 
