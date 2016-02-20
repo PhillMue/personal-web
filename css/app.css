@@ -290,3 +290,8 @@ div.aligncenter {
     background-color: aliceblue;
     background-image: url(../images/icon_services_sprit.png)
 }
+
+section {
+    height: 100%;
+
+}
