@@ -251,7 +251,7 @@ div.aligncenter {
 }
 
 #what_i_do {
-     padding: 100px;
+
     position: relative;
     display: inline-block;
     width: 100%;
@@ -263,7 +263,7 @@ div.aligncenter {
     text-align: center;
 }
 
-.service {
+.column {
     margin-top: 40px;
 }
 
